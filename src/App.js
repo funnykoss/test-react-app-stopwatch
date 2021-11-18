@@ -28,8 +28,7 @@ function App() {
     click$.next();
     setState('wait');
     click$.next();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [click$]);
 
   useEffect(() => {
     const doubleClick$ = click$.pipe(
@@ -39,6 +38,7 @@ function App() {
     );
     const timer$ = new Observable(observer => {
       let count = 0;
+
       const intervalId = setInterval(() => {
         observer.next((count += 1));
         console.log(count);
@@ -47,7 +47,7 @@ function App() {
       return () => {
         clearInterval(intervalId);
       };
-    });
+    }, []);
 
     const subscribtion$ = timer$
       .pipe(takeUntil(doubleClick$))
@@ -63,7 +63,7 @@ function App() {
     return () => {
       subscribtion$.unsubscribe();
     };
-  }, [state]);
+  }, [click$, state, stop$]);
   return (
     <section>
       <Controls
