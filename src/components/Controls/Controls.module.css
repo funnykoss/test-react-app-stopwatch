@@ -1,0 +1,19 @@
+.header{
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+
+
+}
+
+.button{
+    background-color: rgb(17, 146, 146);
+color: white;
+}
+
+
+button:not(:last-child){
+    margin-right: 10px;
+}

@@ -1,25 +1,26 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import setTimeFormat from '../../utils/timeFromat';
+import s from './Controls.module.css';
 
 export const Controls = ({ time, start, stop, reset, wait }) => (
   <>
-    <header className="header">
-      <h1 className="stopwatch headline">StopWatch</h1>
-      <h1 className="stopwatch indicator">{setTimeFormat(time)}</h1>
+    <header className={s.header}>
+      <h1>StopWatch</h1>
+      <h1>{setTimeFormat(time)}</h1>
     </header>
-    <section className="main">
-      <div className="container">
-        <button type="button" className="button is-dark" onClick={start}>
+    <section>
+      <div className={s.container}>
+        <button type="button" className={s.button} onClick={start}>
           Start
         </button>
-        <button type="button" className="button is-dark" onClick={stop}>
+        <button type="button" className={s.button} onClick={stop}>
           Stop
         </button>
-        <button type="button" className="button is-dark" onClick={reset}>
+        <button type="button" className={s.button} onClick={reset}>
           Reset
         </button>
-        <button type="button" className="button is-dark" onClick={wait}>
+        <button type="button" className={s.button} onClick={wait}>
           Wait
         </button>
       </div>
