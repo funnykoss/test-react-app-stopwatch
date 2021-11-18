@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/test-react-app-stopwatch/static/css/main.48ceef8c.chunk.css",
+    "main.js": "/test-react-app-stopwatch/static/js/main.c1c9eda0.chunk.js",
+    "main.js.map": "/test-react-app-stopwatch/static/js/main.c1c9eda0.chunk.js.map",
+    "runtime-main.js": "/test-react-app-stopwatch/static/js/runtime-main.ab5ea128.js",
+    "runtime-main.js.map": "/test-react-app-stopwatch/static/js/runtime-main.ab5ea128.js.map",
+    "static/js/2.334ae445.chunk.js": "/test-react-app-stopwatch/static/js/2.334ae445.chunk.js",
+    "static/js/2.334ae445.chunk.js.map": "/test-react-app-stopwatch/static/js/2.334ae445.chunk.js.map",
+    "static/js/3.77deda83.chunk.js": "/test-react-app-stopwatch/static/js/3.77deda83.chunk.js",
+    "static/js/3.77deda83.chunk.js.map": "/test-react-app-stopwatch/static/js/3.77deda83.chunk.js.map",
+    "index.html": "/test-react-app-stopwatch/index.html",
+    "static/css/main.48ceef8c.chunk.css.map": "/test-react-app-stopwatch/static/css/main.48ceef8c.chunk.css.map",
+    "static/js/2.334ae445.chunk.js.LICENSE.txt": "/test-react-app-stopwatch/static/js/2.334ae445.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab5ea128.js",
+    "static/js/2.334ae445.chunk.js",
+    "static/css/main.48ceef8c.chunk.css",
+    "static/js/main.c1c9eda0.chunk.js"
+  ]
+}
